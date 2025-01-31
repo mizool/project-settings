@@ -817,9 +817,6 @@
       <option name="XML_ALIGN_ATTRIBUTES" value="false" />
       <option name="XML_SPACE_INSIDE_EMPTY_TAG" value="true" />
     </XML>
-    <editorconfig>
-      <option name="ENABLED" value="false" />
-    </editorconfig>
     <codeStyleSettings language="DB2">
       <option name="KEEP_LINE_BREAKS" value="false" />
     </codeStyleSettings>
