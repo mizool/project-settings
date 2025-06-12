@@ -214,6 +214,11 @@
       <option name="EXPR_CASE_COLLAPSE" value="false" />
       <option name="PRIMARY_KEY_NAME_TEMPLATE" value="{table}_{columns}_pk" />
     </H2CodeStyleSettings>
+    <HCL-Terraform>
+      <option name="RUN_TF_FMT_ON_REFORMAT" value="true" />
+      <option name="OBJECT_WRAPPING" value="5" />
+      <option name="ARRAY_WRAPPING" value="5" />
+    </HCL-Terraform>
     <HSQLCodeStyleSettings version="7">
       <option name="USE_GENERAL_STYLE" value="false" />
       <option name="DISABLE_FORMATTING" value="true" />
@@ -833,6 +838,16 @@
     </codeStyleSettings>
     <codeStyleSettings language="H2">
       <option name="KEEP_LINE_BREAKS" value="false" />
+    </codeStyleSettings>
+    <codeStyleSettings language="HCL-Terraform">
+      <option name="KEEP_LINE_BREAKS" value="false" />
+      <option name="KEEP_BLANK_LINES_IN_CODE" value="1" />
+      <option name="SPACE_WITHIN_BRACKETS" value="true" />
+      <option name="SPACE_WITHIN_BRACES" value="true" />
+      <indentOptions>
+        <option name="CONTINUATION_INDENT_SIZE" value="2" />
+        <option name="TAB_SIZE" value="2" />
+      </indentOptions>
     </codeStyleSettings>
     <codeStyleSettings language="HSQLDB">
       <option name="KEEP_LINE_BREAKS" value="false" />
